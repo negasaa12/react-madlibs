@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Part 1: Conceptual
+Answer the following questions inside the conceptual.md file.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Part 2: addCommas
+Write a function called addCommas which accepts a number and converts it into a string formatted with commas added for readability.
 
-## Available Scripts
+Examples of the output we’d like:
 
-In the project directory, you can run:
+Input	Expected Output
+1234	“1,234”
+1000000	“1,000,000”
+9876543210	“9,876,543,210”
+6	“6”
+-10	“-10”
+-5678	“-5,678”
+(bonus) 12345.678	“12,345.678”
+(bonus) -3141592.65	“-3,141,592.65”
+Write tests for these (non-bonus) cases and make sure your code passes these. Feel free to add any other tests you deem necessary.
 
-### `npm start`
+Part 3: React MadLibs
+Make a Madlibs game in React!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here’s how it should function (feel free to change up the specific parts of speech and story):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+_images/madlibs.gif
+As you can see, you’ll need a form for your Madlib, which, once submitted, shows the story with the form entries inserted. Note that the GIF also includes the bonus features described below.
 
-### `npm test`
+You should have a top-level Madlib component, but beyond that the component hierarchy is up to you. Diagram out the hierarchy for yourself before you write any code! Please do not use a single React component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Document your code appropriately.
